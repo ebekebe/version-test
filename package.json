@@ -1,13 +1,12 @@
 {
   "name": "version-test",
-  "version": "0.0.0",
+  "version": "v1-5-g16ae9ed",
   "description": "API server of feram's website",
   "author": "Adrian Sieber <mail@adriansieber.com>",
   "scripts": {
-    "prepublish": "yaml set package.json version 0.0.0-$(git describe) >package.tmp && mv package.tmp package.json"
+    "prepublish": "json --in-place -f package.json -e this.version=\\'$(git describe)\\'"
   },
   "dependencies": {
-    "yaml-cli": "^1.1.8"
   },
   "devDependencies": {},
   "optionalDependencies": {},
