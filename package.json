@@ -1,8 +1,8 @@
 {
   "name": "version-test",
-  "version": "v1-5-g16ae9ed",
+  "version": "0.0.0",
   "description": "API server of feram's website",
-  "author": "Adrian Sieber <mail@adriansieber.com>", 
+  "author": "Adrian Sieber <mail@adriansieber.com>",
   "scripts": {
     "prepublish": "json --in-place -f package.json -e this.version=\\'0.0.0-$(git describe)\\'"
   },
