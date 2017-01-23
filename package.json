@@ -4,7 +4,7 @@
   "description": "API server of feram's website",
   "author": "Adrian Sieber <mail@adriansieber.com>",
   "scripts": {
-    "prepublish": "echo sed s_\\\"0.0.0\\\"_\\\"$(git describe)\\\"_ -i package.json"
+    "prepublish": "sed s_\\\"0.0.0\\\"_\\\"$(git describe)\\\"_ -i package.json"
   },
   "dependencies": {
   },
