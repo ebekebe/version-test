@@ -4,7 +4,7 @@
   "description": "API server of feram's website",
   "author": "Adrian Sieber <mail@adriansieber.com>",
   "scripts": {
-    "prepublish": "json --in-place -f package.json -e this.version=\\'$(git describe)\\'"
+    "prepublish": "json --in-place -f package.json -e this.version=\\'0.0.0-$(git describe)\\'"
   },
   "dependencies": {
   },
