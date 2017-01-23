@@ -1,0 +1,26 @@
+{
+  "name": "version-test",
+  "version": "0.0.0",
+  "description": "API server of feram's website",
+  "author": "Adrian Sieber <mail@adriansieber.com>",
+  "scripts": {
+    "prepublish": "sed s_\"0.0.0\"_\"$(git describe)\"_ -i package.json"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {
+  },
+  "directories": {
+  },
+  "repository": {
+  },
+  "keywords": [
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/feram/feram-co/issues"
+  },
+  "homepage": "https://gitlab.com/feram/feram-co#README"
+}
